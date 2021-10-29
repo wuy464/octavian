@@ -1,0 +1,37 @@
+.service{
+  margin-bottom: 150px;
+  &-text{
+    text-align: center;
+  }
+  &-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  &-desc{
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 90px;
+  }
+  &-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+  }
+  &-item img{
+    margin-bottom: 35px;
+  }
+  &-item-title{
+    max-width: 300px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  &-item-desc{
+    font-size: 14px;
+  }
+
+}

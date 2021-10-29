@@ -1,0 +1,37 @@
+.author{
+  margin-bottom: 300px;
+  &-content{
+    display: flex;
+    align-items: center;
+    
+  }
+  &-text{
+    max-width: 370px;
+    margin-right: 130px;
+  }
+  &-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  &-desc{
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 65px;
+    color: $text-color;
+  }
+  &-image{
+    display: flex;
+    align-items: center;
+  }
+  &-image-column1{
+    margin-right: 30px;
+  }
+  &-image-img1{
+    margin-bottom: 30px;
+  }
+  &-image-img2{
+   margin-left: auto;
+  }
+  
+}

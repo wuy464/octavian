@@ -1,0 +1,40 @@
+.footer{
+  position: relative;
+  background-color: $footer-color;
+  color: $white-color;
+  &-list{
+    padding: 140px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 100px;
+  }
+  &-title{
+    margin-bottom: 35px;
+  }
+  &-desc{
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  &-desc span{
+    display: block;
+    margin-bottom: 30px;
+  }
+  &-icon ion-icon{
+    margin-right: 35px;
+  }
+}
+.arrow a{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 10px;
+  right: 10px;
+  background-color: $btn-color;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: $white-color;
+  z-index: 1000;
+}

@@ -1,0 +1,20 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: $main-font;
+  font-size: 16px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.btn{
+  border: none;
+  padding: 20px 70px;
+  background-color: $btn-color;
+  border-radius: 5px;
+  color: $white-color;
+  font-weight: bold;
+}
